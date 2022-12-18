@@ -1,5 +1,6 @@
-import './App.css'
+import './App';
 import React from 'react';
+import "./App.css";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import WorksPage from './pages/works';
 import AboutmePage from './pages/aboutme';
@@ -34,3 +35,9 @@ export default function App() {
     <RouterProvider router={router} />
   )
 }
+
+
+
+
+
+
